@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "true-electronics",
+	"version": "${version}",
+	"name": "True Electronics",
+	"description": "This mod adds Electric Components and even lets you build your own compact smart devices!",
+	"authors": [
+		"3ngelch3n"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/true-electronics/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.engelchen.trueelectronics.TrueElectronics"
+		],
+		"fabric-datagen": [
+			"net.engelchen.trueelectronics.TrueElectronicsDataGenerator"
+		],
+		"client": [
+			"net.engelchen.trueelectronics.TrueElectronicsClient"
+		]
+	},
+	"mixins": [
+		"true-electronics.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.10",
+		"minecraft": "~1.21.1",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
