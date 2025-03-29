@@ -1,0 +1,11 @@
+{
+  "item.true-electronics.copper_wire": "Copper Wire",
+  "item.true-electronics.golden_conductor_tracks": "Golden Conductor Tracks",
+  "item.true-electronics.silicon_wafer": "Silicon Wafer",
+
+  "block.true-electronics.ore_processing_unit": "Ore Processing Unit",
+  "block.true-electronics.assembly_workbench": "Assembly Workbench",
+
+
+  "itemgroup.true-electronics.true_electronics_item": "True Electronics Items"
+}

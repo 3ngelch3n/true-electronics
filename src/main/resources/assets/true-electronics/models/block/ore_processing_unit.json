@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "side": "true-electronics:block/ore_processing_unit",
+    "end": "true-electronics:block/ore_processing_unit_top"
+  }
+}

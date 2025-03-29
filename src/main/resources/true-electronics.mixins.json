@@ -3,7 +3,7 @@
 	"package": "net.engelchen.trueelectronics.mixin",
 	"compatibilityLevel": "JAVA_21",
 	"mixins": [
-		"ExampleMixin"
+
 	],
 	"injectors": {
 		"defaultRequire": 1

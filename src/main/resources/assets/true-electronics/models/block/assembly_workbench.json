@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "side": "true-electronics:block/assembly_workbench",
+    "end": "true-electronics:block/assembly_workbench"
+  }
+}
